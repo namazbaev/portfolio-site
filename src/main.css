@@ -1,0 +1,150 @@
+
+/* Media queries */
+@media only screen and (max-width: 991px) {
+  /* Main section */
+  .main-section__image {
+    display: none;
+  }
+  .main-section > div {
+    width: 100%;
+  }
+  .main-section__introduction {
+    font-size: 3rem;
+  }
+  /* Statistics */
+  .statistics {
+    padding-top: 3rem;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* About me section */
+  .about-me {
+    padding: 1.5rem 0;
+  }
+  .about-me > div {
+    width: 100%;
+  }
+  .about-me__image {
+    display: none;
+  }
+
+  /* Services section */
+
+  .services {
+    padding: 1.5rem 0;
+  }
+  .service-card {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+  .services__cards {
+    flex-wrap: wrap;
+  }
+  
+  /* Client section */
+
+  .clients {
+    padding: 1.5rem 0;
+  }
+  .client-item {
+    flex-direction: column;
+  }
+  .client-item > div {
+    width: 100%;
+    float: none;
+  }
+  /* Blog section */
+
+  .blog {
+    padding: 1.5rem 0;
+  }
+  .blog-items {
+    flex-wrap: wrap;
+  }
+  .blog-item {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+  /* Partner section */
+
+  .partners {
+    padding: 1.5rem 0;
+  }
+  .partners {
+    flex-direction: column;
+  }
+  .partner {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* Main section */
+  .main-banner {
+    background: none;
+    min-height: auto;
+  }
+  
+  .main-section__action {
+    display: none;
+  }
+  
+  .main-section__introduction {
+    font-size: 3rem;
+  }
+
+  /* Statistics section */
+
+  .statistics {
+    flex-direction: column;
+  }
+  .statistics__item {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+    box-sizing: border-box;
+  }
+
+  /* Services section */
+  .services {
+    padding: 1.5rem 0;
+  }
+  .service-card {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* Portfolio section */
+
+  .portfolio {
+    padding: 1.5rem 0;
+  }
+  .portfolio-item {
+    width: 100%;
+  }
+  .portfolio-filters {
+    text-align: center;
+  }
+  .portfolio-filters li {
+    margin-right: 1rem;
+  }
+  .portfolio-item-2,
+  .portfolio-item-3 {
+    position: static;
+  }
+  /* Blog section */
+  .blog-items {
+    flex-direction: column;
+  }
+
+  .blog-item {
+    /* flex-basis: 100%; */
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* / Media queries */

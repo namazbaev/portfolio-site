@@ -1,0 +1,21 @@
+.about-me {
+    padding: 6.25rem 0;
+    display: flex;
+    align-items: center;
+  }
+  .about-me > div {
+    flex: 1;
+  }
+  .about-me__image img {
+    width:90%;
+  }
+  .section-me__description {
+    font-size: 0.87rem;
+    font-weight: 300;
+    color: #797979;
+    line-height: 1.68rem;
+  }
+  .about-me__action {
+    margin-top: 2.5rem;
+  }
+  

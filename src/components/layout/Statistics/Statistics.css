@@ -1,0 +1,23 @@
+.statistics {
+    padding-top: 1.87rem;
+    display: flex;
+  }
+  .statistics__item {
+    width: 150px;
+    background-color: #F8FAFF;
+    text-align: center;
+    padding: 0.32rem 0.625rem;
+    margin-right: 1.25rem;
+  }
+  .statistics__number {
+    font-size: 1.68rem;
+    margin-bottom: 0.32rem;
+    background: linear-gradient(90deg ,#1345e6 0%,#ed239f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .statistics__title {
+    font-size: 1rem;
+    color: #797979;
+    font-weight: 300;
+  }

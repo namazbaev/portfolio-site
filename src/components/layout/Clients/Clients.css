@@ -1,0 +1,37 @@
+.clients {
+    padding-top: 6.25rem;
+  }
+  .client-item {
+    display: flex;
+    align-items: center;
+  }
+  .client-item > div {
+    flex: 1
+  }
+  .client-item__image img {
+    width: 100%;
+  }
+  .client-item__info {
+    padding-left: 3.12rem;
+  }
+  .client-item__name {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+  .client-item__position {
+    font-size: 0.87rem;
+    font-weight: 300;
+    color: #5b6d75;
+  }
+  .client-item__review {
+    font-size: 0.87rem;
+    line-height: 1.68rem;
+    font-weight: 300;
+    color: #5b6d75;
+  }
+  .client-item__rate {
+    color: #FFD805;
+  }
+  .disabled {
+    color: #AE89BE
+  }

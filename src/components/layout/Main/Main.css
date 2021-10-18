@@ -1,0 +1,47 @@
+.main-banner {
+    padding-top: 6.25rem;
+    background: url("../../../assets/images/main-banner.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .main-section {
+    padding: 7.5rem, 1.87rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-section__image {
+    text-align: right;
+  }
+  .main-section__welcome {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    letter-spacing: 2px;
+    color: #797979;
+  }
+  .main-section__introduction {
+      margin-top: 1.25rem;
+      margin-bottom: 1.25rem;
+      font-size: 3.75rem;
+      font-weight: 500;
+      color: #05364E;
+  }
+  .main-section__position {
+      color: #05364E;
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 1.25rem;
+  }
+  .main-section__action {
+      margin-top: 1.87rem;
+  }
+  .main-section__social_networks a {
+    color: #8FA1AA;
+    font-size: 1.25rem;
+    display: inline-block;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .main-section__social_networks a:hover i {
+    color: #1565C0;
+  }

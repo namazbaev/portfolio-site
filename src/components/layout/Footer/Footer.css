@@ -1,0 +1,48 @@
+.footer {
+    padding: 6.25rem 0;
+    text-align: center;
+    margin-top: 3.12rem;
+    background-color: #021017;
+  }
+  
+  .footer__brand img {
+    width: 128px;
+  }
+  .footer__navigation__items {
+    margin-bottom: 3.12rem;
+  }
+  .footer__navigation__item {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  .footer__navigation__item a {
+    color: white;
+    text-decoration: none;
+  }
+  .footer__social:hover {
+    background: linear-gradient(90deg,#1345e6 0%,#ed239f 100%);
+  }
+  .footer__social:hover i {
+    color: white;
+  }
+  .footer__socials {
+    list-style: none;
+  }
+  .footer__social {
+      display: inline-block;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      background: #fff;
+      border-radius: 36px;
+      color: #05364d;
+      font-size: 1rem;
+      margin-right: 0.75rem;
+  }
+  .footer__social a {
+    color: #021017;
+  }
+  .footer__text {
+    color: #797979;
+  }

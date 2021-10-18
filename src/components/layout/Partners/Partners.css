@@ -1,0 +1,9 @@
+.partners {
+    padding-top: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .partner {
+    display: inline-block;
+    padding: 0 1.70rem;
+  }

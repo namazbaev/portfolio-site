@@ -1,0 +1,43 @@
+.services {
+    padding-top: 6.25rem;
+  }
+  .services__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  .service-card {
+    padding: 3.75rem 1.87rem;
+    background-color: #F8FAFF;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .4s ease 0s;
+  }
+  .service-card__title {
+    color: #05364D;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+  }
+  .service-card__description {
+    font-size: 0.87rem;
+    font-weight: 300;
+    line-height: 1.68rem;
+    color: #797979;
+  }
+  .service-card__link {
+    font-size: 0.81rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364D;
+    text-decoration: none;
+  }
+  .service-card:hover {
+    background-color: #1abc9c;
+  }
+  .service-card:hover .service-card__title,
+  .service-card:hover .service-card__description,
+  .service-card:hover .service-card__link {
+    color: #FFFFFF;
+  }
